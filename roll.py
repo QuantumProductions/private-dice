@@ -1,4 +1,4 @@
-print "Obtain 6-sided dice."
+print "Obtain unloaded 6-sided dice."
 print "It is your responsibility to ensure the evenness and fairness of these dice."
 print "Enter your rolls (1-6). Do this 64 * 4 times to create a private key."
 print "Each letter in the private key ranges from 0-F, determined by the odd or evenness in a sequence of 4 dice using binary math."

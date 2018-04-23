@@ -20,7 +20,6 @@ def get_hex(bits, sum):
   x = x - 1
   value = x % 3
   return get_hex(bits + 1, sum + ((3 ** bits) * value))
-    
 
 lookup = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "9"];
 
@@ -29,4 +28,3 @@ while len(hexes) < 81:
   hexes.append(lookup[num])
 
 print(hexes)
-

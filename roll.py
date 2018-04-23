@@ -21,7 +21,7 @@ def get_hex(bits, sum):
 
 lookup = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"]
 
-while len(hexes) < 4:
+while len(hexes) < 64:
   num = get_hex(0, 0)    
   hexes.append(lookup[num])
 

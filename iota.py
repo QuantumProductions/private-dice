@@ -5,7 +5,6 @@ print "Each letter in the private key ranges from A-Z + 9 (27 character range)."
 print "Each letter is determined by a 3 digit number in a ternary system (0,1,2)."
 print "Each digit is determined by the roll of the dice, minus 1, mod 3."
 
-
 hexes = []
 
 def get_hex(bits, sum):
